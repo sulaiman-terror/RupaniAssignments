@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    text-align: center;
+    &_sign{
+        font-size: 2.5rem;
+    }
+    &_result{
+        border: solid 2px blue;
+        width: 20rem;
+        height: 50px;
+        align-items: center;
+    }
+}
+#container{
+    &_num1{
+        text-align: center;
+        width: 50%;
+        padding: 2rem 3rem 3rem 2rem;
+    }
+    &_num2{
+        width: 50%;
+        text-align: center;
+        padding: 2rem 3rem 3rem 2rem;
+    }
+}

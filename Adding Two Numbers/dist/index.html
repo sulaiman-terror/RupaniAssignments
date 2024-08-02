@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Two Numbers Addition</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="container">
+        <form oninput="result.value=parseInt(container_num1.value)+parseInt(container_num2.value)">
+            <div class="container_num1">
+                <input id="container_num1" type="number" placeholder="Please enter the first number here">
+            </div>
+            <div class="container_plus">
+                <span class="container_sign">+</span>
+            </div>
+            <div class="container_num2">
+                <input id="container_num2" type="number" placeholder="Please enter the second number here">
+            </div>
+            <div class="container_sign">
+                =
+            </div>
+            <div class="container_result">
+                <output name="result" for="container_num1 container_num2">
+                </output>   
+            </div>
+        </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
