@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Example</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form id="myForm">
+      <legend>
+          
+          <h1>Registration form</h1>
+      </legend>
+    <table>
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" name="name"></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" id="password" name="password"></td>
+      </tr>
+      <tr>
+        <td><label>Gender:</label></td>
+        <td>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label>Hobbies:</label></td>
+        <td>
+          <select id="hobbies" name="hobbies">
+            <option value="">Select a hobby</option>
+            <option value="Reading">Reading</option>
+            <option value="Writing">Writing</option>
+            <option value="Sports">Sports</option>
+            <option value="Music">Music</option>
+            <option value="Traveling">Traveling</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label>Education:</label></td>
+        <td>
+          <select id="education" name="education">
+            <option value="">Select an education level</option>
+            <option value="High School">High School</option>
+            <option value="Bachelor's Degree">Bachelor's Degree</option>
+            <option value="Master's Degree">Master's Degree</option>
+            <option value="Ph.D.">Ph.D.</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="submit" value="Submit"></td>
+      </tr>
+    </table>
+  </form>
+  
+  <div id="output"></div>
+  <script src="main.js"></script>
+</body>
+</html>
